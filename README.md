@@ -49,5 +49,6 @@ Advancement-based tutorial:
 This datapack uses advancements to guide players through their fishing journey, check it for the most up-to-date info and tips!
 
 Planet minecraft link: [https://www.planetminecraft.com/data-pack/fishing-frontier/](https://www.planetminecraft.com/data-pack/fishing-frontier/)
+Modrinth Link: [https://modrinth.com/datapack/fishing-frontier](https://modrinth.com/datapack/fishing-frontier)
 
 Performance: This datapack shouldn't have any real impact on tick lag at all, as it only should be performing any real logic when fishing is occurring, and I've tried my best to only perform logic when needed, hope this is a lag-free pack!
