@@ -53,3 +53,5 @@ Planet minecraft link: [https://www.planetminecraft.com/data-pack/fishing-fronti
 Modrinth Link: [https://modrinth.com/datapack/fishing-frontier](https://modrinth.com/datapack/fishing-frontier)
 
 Performance: This datapack shouldn't have any real impact on tick lag at all, as it only should be performing any real logic when fishing is occurring, and I've tried my best to only perform logic when needed, hope this is a lag-free pack!
+
+Credit to minecraft-heads.com for some custom mob heads!
