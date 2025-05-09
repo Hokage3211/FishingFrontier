@@ -48,6 +48,14 @@ Fish up new armor pieces, all part of the Fisherman's Set to climb your way thro
 Advancement-based tutorial:
 This datapack uses advancements to guide players through their fishing journey, check it for the most up-to-date info and tips!
 
+<details>
+<summary>For PAPERMC (lava fishing burning immediately)</summary>
+
+If your lava-fished items are burning immediately when fished up, and you are on a paper server, this is due to paper's incompatibility with certain vanilla technical features, such as distance=0 selector not working on the same tick an entity is summoned.
+SOLUTION: Ask your server owner to change the value of **fix-entity-position-desync** to **false** inside of **paper-global.yml**
+
+</details>
+
 Planet minecraft link: [https://www.planetminecraft.com/data-pack/fishing-frontier/](https://www.planetminecraft.com/data-pack/fishing-frontier/)
 
 Modrinth Link: [https://modrinth.com/datapack/fishing-frontier](https://modrinth.com/datapack/fishing-frontier)
