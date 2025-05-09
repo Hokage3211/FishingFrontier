@@ -13,14 +13,14 @@ Fish up new armor pieces, all part of the Fisherman's Set to climb your way thro
 <details>
 <summary>Live Catch</summary>
 
->Catch live creatures loaded with goodies using this new enchantment. Some are useful in more ways than just slaying them... 
+>Catch live creatures loaded with goodies using this new enchantment. Some are useful in more ways than just slaying them... Not compatible with Treasure Hunter!
 
 </details>
 
 <details>
 <summary>Treasure Hunter</summary>
 
->Use this enchantment to not only fish up loot crates, but encourages fishers to explore and find rare structures to be able to fish up loot crates that let you collect armor trims!
+>Use this enchantment to not only fish up loot crates, but encourages fishers to explore and find rare structures to be able to fish up loot crates that let you collect armor trims! Not compatible with Live Catch!
 
 </details>
 
