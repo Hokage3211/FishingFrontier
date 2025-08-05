@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Biome loot info               "
+        },
+        "description": {
+            "text": "Biomes with extra loot: cave biomes, oceans, rivers, cold biomes, forests, jungles, mushroom island, swamps, savanna and badlands, deserts, flower forests, mountains, and the end!"
+        },
+        "icon": {
+            "id": "minecraft:birch_sapling"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:progression/fishing_info"
+}

@@ -1,0 +1,122 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torch"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_ink_sac"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_gold"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dirt"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gravel",
+            "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 5,
+                    "saturation": 6
+                  },
+                  "minecraft:item_name": "Crystal Fish"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 5,
+                    "saturation": 6
+                  },
+                  "minecraft:item_name": "Quartz Fish"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 1
+                  },
+                  "minecraft:item_name": "Slimey Goo"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 3.6
+                  },
+                  "minecraft:item_name": "Spindly Bonefish"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_lichen"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

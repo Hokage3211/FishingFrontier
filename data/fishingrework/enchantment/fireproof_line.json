@@ -1,0 +1,20 @@
+{
+    "description": "Fireproof Line",
+    "supported_items": [
+      "minecraft:fishing_rod",
+      "minecraft:book"
+    ],
+    "primary_items": "#minecraft:enchantable/fishing",
+    "weight": 4,
+    "max_level": 1,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 30,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "slots": []
+}

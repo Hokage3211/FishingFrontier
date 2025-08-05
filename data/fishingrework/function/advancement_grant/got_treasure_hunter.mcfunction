@@ -1,0 +1,1 @@
+advancement grant @s only fishingrework:enchantment_info/treasure_hunter_progression/treasure_t1

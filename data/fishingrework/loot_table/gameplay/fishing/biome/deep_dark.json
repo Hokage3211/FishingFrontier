@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron_block",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sculk",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sculk_vein",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sculk_catalyst"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sculk_sensor"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sculk_shrieker"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

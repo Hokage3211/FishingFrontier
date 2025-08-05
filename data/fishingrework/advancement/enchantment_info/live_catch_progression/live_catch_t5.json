@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Live Catch tier 4                       "
+        },
+        "description": {
+            "text": "The final tier! New location specific catches are wither skeletons in a fortress! The mounted drowned caught in water might also be of interest..."
+        },
+        "icon": {
+            "id": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+    },
+    "parent": "fishingrework:enchantment_info/live_catch_progression/live_catch_t4"
+}

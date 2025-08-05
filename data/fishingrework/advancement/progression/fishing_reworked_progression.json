@@ -1,0 +1,29 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Tiered fishing progression                    "
+        },
+        "description": {
+            "text": "This fishing system has progression! Tiers 0 - 4, each being based on the amount of luck you have when you fish! \nWearing each piece of the Fisherman's set will give you 1 luck. \nEach tier unlocks the fishing loot that includes the next armor piece."
+        },
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "potion_contents": {
+                    "potion": "luck"
+                }
+            }
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:root"
+}

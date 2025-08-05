@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "Tactical fishing upgrade!                       "
+        },
+        "description": {
+            "text": "The Live Catch enchantment gives you a chance to hook up lively creatures and take them down for extra loot! Combine with Fireproof Line for firey fun in the nether! \n-Max Level: 3 \n-Each level gives a higher chance \n-Exclusive with Treasure Hunter \n-Requires 5x5x5 area of open liquid (open water/lava + air)"
+        },
+        "icon": {
+            "id": "minecraft:tropical_fish_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "fishingrework:live_catch",
+                  "levels": {
+                    "min": 1,
+                    "max": 255
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+    },
+    "parent": "fishingrework:enchantment_info/enchantments_root",
+    "rewards": {
+      "function": "fishingrework:advancement_grant/got_live_catch"
+    }
+}

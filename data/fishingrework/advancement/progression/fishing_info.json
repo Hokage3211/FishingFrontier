@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Tiered fishing, localized loot!               "
+        },
+        "description": {
+            "text": "With each tier of fishing unlocked, more fish and loot will be unlocked globally, but by default even at tier 0, there is also biome/location specific loot!"
+        },
+        "icon": {
+            "id": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:root"
+}

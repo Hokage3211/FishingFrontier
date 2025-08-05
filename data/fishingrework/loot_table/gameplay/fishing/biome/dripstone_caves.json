@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper_block"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pointed_dripstone",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dripstone_block",
+            "weight": 3
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

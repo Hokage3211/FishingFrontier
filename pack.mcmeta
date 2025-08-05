@@ -1,0 +1,17 @@
+{
+	"pack":{
+		"pack_format": 71,
+		"description": "Fishing Frontier, a vanilla fishing expansion pack! (Author: hokage3211)",
+		"supported_formats": [48,999]
+	},
+	"overlays": {
+		"entries": [
+			{"formats" : [48,61],
+			"directory" : "fishingrework_dp_61"},
+			{"formats" : [48,49],
+			"directory" : "fishingrework_dp_49"},
+			{"formats" : [48,48],
+			"directory" : "fishingrework_dp_48"}
+		]
+	}
+}

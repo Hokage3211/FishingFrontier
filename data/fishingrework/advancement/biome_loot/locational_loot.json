@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Location loot info               "
+        },
+        "description": {
+            "text": "There's also locational loot, like being underground (y level 40 through -2), and deep underground (y level -2 and below)"
+        },
+        "icon": {
+            "id": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:biome_loot/biome_loot"
+}

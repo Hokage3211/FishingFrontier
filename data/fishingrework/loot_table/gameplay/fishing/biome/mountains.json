@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

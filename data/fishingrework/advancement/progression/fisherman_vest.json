@@ -1,0 +1,55 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_chestplate",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:tide"
+          }
+        }
+      },
+      "title": "Fisherman's Vest",
+      "description": "You've acquired the fisherman's Vest!",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "fishingrework:progression/fisherman_leggings",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:leather_chestplate",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                    {
+                      "id": "luck_fisherman_chestplate",
+                      "type": "minecraft:luck",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "armor_chestplate",
+                      "type": "minecraft:armor",
+                      "amount": 7,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],
+                  "minecraft:custom_name": "Fisherman's Vest",
+                  "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "minecraft:tide"
+                  }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

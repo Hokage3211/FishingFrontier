@@ -1,0 +1,675 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/spawn_bonus_chest"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Common Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/underwater_ruin_small"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Common Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/village/village_fisher"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Common Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/trial_chambers/corridor"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Common Crate"}]}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/village/village_armorer"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "yellow","italic": false,"text": "Uncommon Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/village/village_plains_house"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "yellow","italic": false,"text": "Uncommon Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:entities/elder_guardian"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "yellow","italic": false,"text": "Uncommon Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_ocean"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:suspicious_gravel",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:block_entity_data": {
+                      "id": "minecraft:brushable_block",
+                      "LootTable": "fishingrework:gameplay/fishing/bounty/warm_ocean"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Delicate Oceanic Silt"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_ocean"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/abandoned_mineshaft"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "yellow","italic": false,"text": "Uncommon Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:suspicious_gravel",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:block_entity_data": {
+                      "id": "minecraft:brushable_block",
+                      "LootTable": "fishingrework:gameplay/fishing/bounty/trail_ruin"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Delicate Ancient Gravel"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "structures": "minecraft:trail_ruins"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_1"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/rare_crate"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/dungeon_crate"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/sandy_ocean"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/pillager_outpost"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:pillager_outpost"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/jungle_temple"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:jungle",
+                      "minecraft:bamboo_jungle",
+                      "minecraft:sparse_jungle"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/desert_pyramid"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": "minecraft:desert_pyramid"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/stronghold_corridor"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": "minecraft:stronghold"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 7,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/planty_box"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "aqua","italic": false,"text": "Rare Crate"}]}
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_2"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/epic_crate"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_purple","italic": false,"text": "Epic Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 8,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/redstone_crate"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_purple","italic": false,"text": "Epic Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/shipwreck_treasure"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_purple","italic": false,"text": "Epic Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:shipwreck",
+                      "minecraft:shipwreck_beached"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/nether_bridge"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_purple","italic": false,"text": "Epic Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:fortress"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/ruined_portal"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_purple","italic": false,"text": "Epic Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "fishingrework:in_nether_area"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_3"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/end_city_treasure"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_green","italic": false,"text": "Legendary Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 12,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/end_city_treasure"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_green","italic": false,"text": "Legendary Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "reference",
+                  "name": "fishingrework:in_end_area"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/bastion_other"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_green","italic": false,"text": "Legendary Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:bastion_remnant"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/woodland_mansion"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_green","italic": false,"text": "Legendary Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:mansion"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/ancient_city_crate"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "dark_green","italic": false,"text": "Legendary Crate"}]}
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": [
+                      "minecraft:ancient_city"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 7,
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "fishingrework:gameplay/fishing/bounty/lunch_box"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": true,"color": "white","italic": false,"text": "Common Crate"}]}
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 3,
+              "name": "minecraft:gray_shulker_box",
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:container_loot": {
+                      "loot_table": "minecraft:chests/village/village_fisher"
+                    }
+                  }
+                },
+                {"function": "set_name","name": [{"bold": false,"italic": false,"text": "Old Tackle Box"}]}
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

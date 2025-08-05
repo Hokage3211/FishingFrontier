@@ -1,0 +1,111 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heart_of_the_sea"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trident"
+          }
+        ]
+      },
+      {
+        "rolls": 3,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:turtle_scute",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1,
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:entity/goat_horn",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:prismarine_shard",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:prismarine_crystals",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/water/treasure"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/spider"
+  }
+  

@@ -1,0 +1,34 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Fishing Frontier"
+        },
+        "description": {
+            "text": "The fishing frontier datapack has been installed!"
+        },
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:block/blue_glazed_terracotta"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fishingrework:advancement_grant/grant_advancements"
+    }
+}

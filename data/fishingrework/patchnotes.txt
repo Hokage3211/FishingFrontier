@@ -1,0 +1,65 @@
+FishingFrontier 1.21.8 Compatibility Update
+============================================
+
+This update ports the FishingFrontier datapack to Minecraft 1.21.8, fixing all enchantment format and predicate issues that were preventing the datapack from loading properly.
+
+CHANGES MADE:
+-------------
+
+1. ENCHANTMENT PREDICATE FORMAT FIXES:
+   - Fixed data/fishingrework/predicate/can_lava_fish.json
+   - Updated enchantment references from object format to string format
+   - Changed from {"fishingrework:fireproof_line": {}} to "fishingrework:fireproof_line"
+
+2. ADVANCEMENT ENCHANTMENT FORMAT FIXES:
+   - Fixed data/fishingrework/advancement/enchantment_info/fireproof_line.json
+   - Fixed data/fishingrework/advancement/enchantment_info/live_catch.json
+   - Fixed data/fishingrework/advancement/enchantment_info/treasure_hunter.json
+   - Fixed data/fishingrework/advancement/enchantment_info/fishermans_luck.json
+   - Updated all enchantment predicates to use string format instead of object format
+
+3. LOOT TABLE ENCHANTMENT FORMAT FIXES:
+   - Fixed data/minecraft/loot_table/gameplay/fishing.json
+   - Fixed data/fishingrework/loot_table/lava_fish.json
+   - Updated table_bonus enchantment references to use string format
+   - Changed from {"fishingrework:live_catch": {}} to "fishingrework:live_catch"
+
+4. STORED ENCHANTMENTS FORMAT FIXES:
+   - Fixed data/fishingrework/loot_table/gameplay/fishing/water/treasure.json
+   - Fixed data/fishingrework/advancement/enchantment_info/fishermans_luck.json
+   - Updated stored_enchantments to use simple number format instead of object format
+   - Changed from {"fishingrework:fishermans_luck": {"min": 1, "max": 1}} to {"fishingrework:fishermans_luck": 1}
+
+ISSUES RESOLVED:
+----------------
+- Fixed "Couldn't load tag fishingrework:fishing_enchants" errors
+- Fixed "Couldn't parse data file 'fishingrework:can_lava_fish'" predicate errors
+- Fixed "Couldn't parse data file 'minecraft:gameplay/fishing'" loot table errors
+- Fixed "Couldn't parse data file 'fishingrework:lava_fish'" loot table errors
+- Fixed "Couldn't load advancements" errors for all enchantment-related advancements
+- Fixed function loading errors due to missing predicate references
+- Resolved all enchantment format compatibility issues with Minecraft 1.21.8
+
+TECHNICAL DETAILS:
+------------------
+The main issue was that Minecraft 1.21.8 expects enchantment references in predicates, advancements, and loot tables to use string format rather than object format. The datapack was using the newer object format syntax which is not yet supported in this version.
+
+All enchantment references now use the correct string format:
+- Predicates: "enchantments": "fishingrework:fireproof_line"
+- Loot Tables: "enchantment": "fishingrework:live_catch"
+- Stored Enchantments: "fishingrework:fishermans_luck": 1
+
+This update maintains full compatibility with all existing features while ensuring the datapack loads properly on Minecraft 1.21.8 servers.
+
+TESTED ON:
+-----------
+- Minecraft 1.21.8 (Paper/Spigot)
+- All enchantments working correctly
+- All advancements loading properly
+- All loot tables functioning as intended
+- Lava fishing mechanics working
+- Progression system intact
+
+The datapack should now load without any errors and all features should work as originally intended.
+
+

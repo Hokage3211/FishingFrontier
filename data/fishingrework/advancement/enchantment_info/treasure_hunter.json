@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "Treasure hunting loot crates!                "
+        },
+        "description": {
+            "text": "The Treasure Hunter enchantment gives you a small chance to reel in loot crates, some even in special locations, including lava!  \n-Max Level: 3 \n-Each level gives a higher chance \n-Exclusive with Live Catch \n-Requires 5x5x5 area of open liquid (open water/lava + air)"
+        },
+        "icon": {
+            "id": "minecraft:oak_chest_boat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "fishingrework:treasure_hunter",
+                  "levels": {
+                    "min": 1,
+                    "max": 255
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+    },
+    "parent": "fishingrework:enchantment_info/enchantments_root",
+    "rewards": {
+      "function": "fishingrework:advancement_grant/got_treasure_hunter"
+    }
+}
