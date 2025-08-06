@@ -1,0 +1,56 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:turtle_helmet",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:tide"
+          }
+        }
+      },
+      "title": "Fisherman's Cap   ",
+      "description": "You've acquired the fisherman's cap, the final piece! When you have 4 luck, you've unlocked all the loot possibilities!",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false,
+      "frame": "goal"
+    },
+    "parent": "fishingrework:progression/fisherman_vest",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:turtle_helmet",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                    {
+                      "id": "luck_fisherman_helmet",
+                      "type": "minecraft:generic.luck",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "armor_helmet",
+                      "type": "minecraft:generic.armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],
+                  "minecraft:custom_name": "\"Fisherman's Cap\"",
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:tide"
+                  }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_roots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mud"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clay"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 5,
+                    "saturation": 2.4
+                  },
+                  "minecraft:item_name": "\"Slimy Orbfish\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lily_pad",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 1.8
+                  },
+                  "minecraft:item_name": "\"Lily Pad Flounder\""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

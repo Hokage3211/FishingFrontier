@@ -1,0 +1,55 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_boots",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:tide"
+          }
+        }
+      },
+      "title": "Fisherman's Boots        ",
+      "description": "You've acquired the fisherman's boots! You've started your journey to unlocking all the fishing loot!",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "fishingrework:progression/fishing_reworked_progression",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:leather_boots",
+              "components": {
+                "minecraft:custom_name": "\"Fisherman's Boots\"",
+                "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "minecraft:tide"
+                },
+                "minecraft:attribute_modifiers": [
+                    {
+                      "id": "luck_fisherman_boots",
+                      "type": "minecraft:luck",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "armor_feet",
+                      "type": "minecraft:armor",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
