@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:string",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 7
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 40,
+                "options": "#minecraft:on_random_loot"
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.1,
+                  "max": 0.8
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/spider"
+  }
+  

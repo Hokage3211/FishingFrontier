@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "New fishing enchantments                  "
+        },
+        "description": {
+            "text": "New enchantments are available!"
+        },
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:root"
+}

@@ -1,0 +1,159 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_pickaxe",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:empty",
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "rolls": 3,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:obsidian",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3,
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:end_rod",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:end_crystal",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_chest",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1,
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/water/treasure"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/spider"
+  }
+  

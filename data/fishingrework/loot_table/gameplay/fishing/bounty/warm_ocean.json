@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:angler_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sniffer_egg"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:turtle_egg",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:turtle_scute",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heart_of_the_sea"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:prismarine_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dark_prismarine"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:archaeology/ocean_ruin_warm"
+  }
+  

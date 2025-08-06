@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Too many items!                         "
+        },
+        "description": {
+            "text": "As you progress your fishing journey you will acquire more and more types of items, it's recommended to have bundles (if possible), or storage nearby when fishing!"
+        },
+        "icon": {
+            "id": "minecraft:gray_shulker_box"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:root"
+}

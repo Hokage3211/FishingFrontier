@@ -1,0 +1,571 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:cod ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:salmon ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:pufferfish ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 6,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:squid ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:mooshroom ~ ~ ~"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "minecraft:mushroom_fields"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:tadpole ~ ~ ~"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:swamp",
+                      "minecraft:mangrove_swamp"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:bat ~ ~ ~"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "y": {
+                        "min": -900,
+                        "max": 40
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "fishingrework:entity/stone_bug_underground",
+              "weight": 10,
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "y": {
+                        "min": -900,
+                        "max": 40
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:axolotl ~ ~ ~"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "minecraft:lush_caves"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:drowned ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/sunken_pirate\",LeftHanded:1b,Health:30f,CustomName:'\"Sunken Pirate\"',HandItems:[{id:\"minecraft:iron_sword\",count:1,components:{\"minecraft:max_damage\":300,\"minecraft:custom_name\":'\"Iron Cutlass\"',\"minecraft:enchantments\":{levels:{\"minecraft:looting\":3,\"minecraft:sharpness\":2,\"minecraft:sweeping_edge\":1}}}},{}],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:pufferfish ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/windfish\",LeftHanded:1b,CustomName:'\"Windfish\"',active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:wind_charged\",amplifier:3,duration:-1}],attributes:[{id:\"minecraft:max_health\",base:50},{id:\"minecraft:scale\",base:7}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:tropical_fish ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon zombie ~ ~ ~ {LeftHanded:0b,Health:5f,IsBaby:1b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],Passengers:[{id:\"minecraft:squid\",DeathLootTable:\"fishingrework:entity\/land_squid\",Health:50f,attributes:[{id:\"minecraft:max_health\",base:50},{id:\"minecraft:scale\",base:3}]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.01f,0.01f,0.01f]}}],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:fire_resistance\",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:\"minecraft:attack_damage\",base:1},{id:\"minecraft:max_health\",base:5},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon axolotl ~ ~ ~ {Variant:2,CustomName:'\"Gold Fish\"'}"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_1"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:spider ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/spider_crab\",LeftHanded:0b,Health:14f,CustomName:'\"Spider Crab\"',active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:armor\",base:6},{id:\"minecraft:armor_toughness\",base:10},{id:\"minecraft:max_health\",base:14},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:guardian ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/guardian_fish\",LeftHanded:0b,Health:40f,active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:40},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:drowned ~ ~ ~ {LeftHanded:0b,Health:30f,CustomName:'\"Gladiator Drowned\"',HandItems:[{id:\"minecraft:trident\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:impaling\":2}}}},{id:\"minecraft:shield\",count:1}],HandDropChances:[0.150F,0.085F],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:cod ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/big_cod\",LeftHanded:0b,Health:16f,active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:16},{id:\"minecraft:scale\",base:4},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "fishingrework:gameplay/fishing/misc/enderman_choice",
+              "weight": 15,
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "fishingrework:in_end_area"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_2"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:witch ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/sea_hag\",LeftHanded:0b,CustomName:'\"Sea Hag\"',active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:water_breathing\",amplifier:0,duration:-1}],attributes:[{id:\"minecraft:scale\",base:.75},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_ocean"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:turtle ~ ~ ~"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_ocean"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon vex ~ ~ ~ {LeftHanded:0b,HandItems:[{id:\"minecraft:potion\",count:1,components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\",custom_effects:[{id:\"minecraft:conduit_power\",amplifier:0,duration:600}]}}},{}],HandDropChances:[0.250F,0.085F],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:water_breathing\",amplifier:0,duration:-1}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon salmon ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/big_salmon\",LeftHanded:0b,Health:20f,active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:armor\",base:6},{id:\"minecraft:armor_toughness\",base:10},{id:\"minecraft:max_health\",base:20},{id:\"minecraft:scale\",base:5}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "function fishingrework:special_summon\/booty_beard"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "function fishingrework:special_summon\/sea_serpent_water"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "function fishingrework:special_summon\/sea_serpent_end"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "fishingrework:in_end_area"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_3"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon minecraft:dolphin ~ ~ ~"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon elder_guardian ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/mini_elder_guardian\",LeftHanded:0b,active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:scale\",base:.5}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 9,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon phantom ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/guardian_fish\",LeftHanded:0b,Passengers:[{id:\"minecraft:bogged\",HandItems:[{id:\"minecraft:bow\",count:1},{}]}],CustomName:'\"Flying Ray\"',active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:fire_resistance\",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:\"minecraft:scale\",base:1.5}]}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "summon skeleton_horse ~ ~ ~ {Tame:1b,Passengers:[{id:\"minecraft:drowned\",Health:50f,HandItems:[{id:\"minecraft:trident\",count:1},{id:\"minecraft:fishing_rod\",count:1}],attributes:[{id:\"minecraft:max_health\",base:50},{id:\"minecraft:water_movement_efficiency\",base:1}]}],ArmorItems:[{id:\"minecraft:stick\",count:1,components:{\"minecraft:enchantments\":{levels:{\"fishingrework:heavy_boots\":1}}}},{},{},{}],ArmorDropChances:[0.000F,0.085F,0.085F,0.085F],attributes:[{id:\"minecraft:movement_speed\",base:0.3},{id:\"minecraft:water_movement_efficiency\",base:1}],SaddleItem:{id:\"minecraft:saddle\",Count:1b}}"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

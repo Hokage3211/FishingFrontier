@@ -1,0 +1,22 @@
+{
+    "description": "Treasure Hunter",
+    "exclusive_set": "fishingrework:live_catch",
+    "supported_items": [
+      "minecraft:fishing_rod",
+      "minecraft:book"
+    ],
+    "primary_items": "#minecraft:enchantable/fishing",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "max_cost": {
+      "base": 45,
+      "per_level_above_first": 9
+    },
+    "anvil_cost": 2,
+    "slots": []
+  }
+  

@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:firework_explosion": {
+                    "shape": "large_ball",
+                    "colors": [
+                      14357524,
+                      16771855,
+                      16222498
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:firework_explosion": {
+                    "shape": "star",
+                    "colors": [
+                      0
+                    ],
+                    "fade_colors": [
+                      15596333
+                    ],
+                    "has_twinkle": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:firework_explosion": {
+                    "shape": "creeper",
+                    "colors": [
+                      7405448
+                    ],
+                    "fade_colors": [
+                      0,
+                      16777215
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

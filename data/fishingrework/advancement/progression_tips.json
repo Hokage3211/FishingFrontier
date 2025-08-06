@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Looking for the armor?                           "
+        },
+        "description": {
+            "text": "The fisherman's set comes from fishing treasure loot, using a Live Catch or Treasure Hunter rod may slightly decrease your chance of getting the normal treasure loot!"
+        },
+        "icon": {
+            "id": "minecraft:leather_boots"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:organization_tips"
+}

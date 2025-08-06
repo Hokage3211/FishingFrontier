@@ -1,0 +1,167 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_copper\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:copper_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_coal\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:coal_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_iron\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:iron_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_redstone\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:redstone_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_1"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_lapis\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:lapis_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_2"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_emerald\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:emerald_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_3"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon endermite ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/stone_bug_diamond\",Health:20f,PlayerSpawned:0b,Passengers:[{id:\"minecraft:block_display\",Tags:[\"frw_cleanup\"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.45f,-0.5f,-0.45f],scale:[0.9f,0.9f,0.9f]},block_state:{Name:\"minecraft:diamond_ore\"}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:-1,show_particles:0b},{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:generic.max_health\",base:20},{id:\"minecraft:generic.scale\",base:2.2}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

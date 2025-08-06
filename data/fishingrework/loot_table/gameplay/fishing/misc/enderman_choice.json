@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:grass_block\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:tnt\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:oak_sapling\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:obsidian\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:chorus_flower\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fishedcommand": "summon enderman ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/enderman_boost\",equipment:{mainhand:{id:\"minecraft:end_stone\",count:1}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:-1,show_particles:0b}]}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

@@ -1,0 +1,763 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cod",
+              "weight": 60
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:salmon",
+              "weight": 25
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tropical_fish",
+              "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pufferfish",
+              "weight": 13
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_sword",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.8,
+                    "max": 1
+                  },
+                  "add": false
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 6,
+                      "saturation": 7.2
+                    },
+                    "minecraft:max_damage": 200,
+                    "minecraft:item_name": "\"Swordfish\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_pickaxe",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.5,
+                    "max": 1
+                  },
+                  "add": false
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:max_damage": 200,
+                    "minecraft:item_name": "\"Lost Anchor\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:arrow",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 3,
+                      "saturation": 3.6
+                    },
+                    "minecraft:item_name": "\"Arrowcuda\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 1,
+                      "saturation": 0.6
+                    },
+                    "minecraft:item_name": "\"Stickfish\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot_seeds",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 2,
+                      "saturation": 0.2
+                    },
+                    "minecraft:item_name": "\"Fish Food\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:lily_pad",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 5,
+                      "saturation": 6
+                    },
+                    "minecraft:item_name": "\"Green Manta Ray\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:melon_slice",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 3.6
+                    },
+                    "minecraft:item_name": "\"Rainbow Fish\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:kelp",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2.4
+                    },
+                    "minecraft:item_name": "\"Grass Eel\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:clay_ball",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 3,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Scallop\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:hanging_roots",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 1,
+                      "saturation": 0
+                    },
+                    "minecraft:item_name": "\"Worms\"",
+                    "minecraft:rarity": "common",
+                    "minecraft:lore": [
+                      "\"I guess you could eat them...\""
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_1"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_axe",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 6,
+                      "saturation": 7.2
+                    },
+                    "minecraft:max_damage": 200,
+                    "minecraft:item_name": "\"Axehead Grouper\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_shovel",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 6,
+                      "saturation": 7.2
+                    },
+                    "minecraft:max_damage": 200,
+                    "minecraft:item_name": "\"Shovelfish\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bone_meal",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 5,
+                      "saturation": 7.5
+                    },
+                    "minecraft:item_name": "\"Caviar\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sea_pickle",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 1
+                    },
+                    "minecraft:item_name": "\"Sea Cucumber\"",
+                    "minecraft:rarity": "common"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tipped_arrow",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {
+                      "consume_seconds": 4
+                    },
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 6
+                    },
+                    "minecraft:item_name": "\"Slow Arrowcuda\"",
+                    "minecraft:custom_name": "\"Slow Arrowcuda\""
+                  }
+                },
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:long_turtle_master"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tipped_arrow",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Glass Arrowcuda\"",
+                    "minecraft:custom_name": "\"Glass Arrowcuda\""
+                  }
+                },
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:long_invisibility"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:feather",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Featherfish\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_cod",
+              "weight": 12,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 7,
+                      "saturation": 8
+                    },
+                    "minecraft:item_name": "\"Cod ☆\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:chicken",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_name": "\"Wingfish\""
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_2"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pufferfish",
+              "weight": 12,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {
+                      "on_consume_effects": [
+                        {
+                          "type": "minecraft:play_sound",
+                          "sound": "minecraft:entity.puffer_fish.blow_up"
+                        }
+                      ]
+                    },
+                    "minecraft:food": {
+                      "nutrition": 5,
+                      "saturation": 9
+                    },
+                    "minecraft:item_name": "\"Pufferfish ☆\"",
+                    "minecraft:lore": [
+                      "\"A pristine catch! Safe to eat.\""
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:spider_eye",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Poison Eel Eye\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tipped_arrow",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Swift Arrowcuda\"",
+                    "minecraft:custom_name": "\"Swift Arrowcuda\""
+                  }
+                },
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:long_swiftness"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tipped_arrow",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 2
+                    },
+                    "minecraft:item_name": "\"Healthy Arrowcuda\"",
+                    "minecraft:custom_name": "\"Healthy Arrowcuda\""
+                  }
+                },
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:healing"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:firework_rocket",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:fireworks": {
+                      "flight_duration": 3,
+                      "explosions": [
+                        {
+                          "shape": "star",
+                          "colors": [
+                            2061777,
+                            1434936
+                          ],
+                          "has_trail": true
+                        }
+                      ]
+                    },
+                    "minecraft:item_name": "\"Rocket Fish\"",
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 5,
+                      "saturation": 2
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rabbit_foot",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {
+                      "consume_seconds": 2,
+                      "on_consume_effects": [
+                            {
+                              "type": "minecraft:apply_effects",
+                              "effects": [
+                                {
+                                  "id": "minecraft:luck",
+                                  "duration": 2400
+                                }
+                              ]
+                            }
+                          ]
+                    },
+                    "minecraft:food": {
+                      "nutrition": 1,
+                      "saturation": 20
+                    },
+                    "minecraft:item_name": "\"Luck-Fish\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:porkchop",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_name": "\"Porker Fish\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:mutton",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_name": "\"Lambwing Fish\""
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_3"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tropical_fish",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 4,
+                      "saturation": 8
+                    },
+                    "minecraft:item_name": "\"Tropical Fish ☆\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_salmon",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 8,
+                      "saturation": 12
+                    },
+                    "minecraft:item_name": "\"Salmon ☆\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:ink_sac",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 6,
+                      "saturation": 4
+                    },
+                    "minecraft:item_name": "\"Calamari\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:lantern",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 6,
+                      "saturation": 10
+                    },
+                    "minecraft:item_name": "\"Lanternfish\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glistering_melon_slice",
+              "weight": 12,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 8,
+                      "saturation": 8
+                    },
+                    "minecraft:item_name": "\"Greater Rainbow Fish\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beef",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_name": "\"Tuna Steak\""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_carrot",
+              "weight": 4,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:consumable": {},
+                    "minecraft:food": {
+                      "nutrition": 13,
+                      "saturation": 20
+                    },
+                    "minecraft:item_name": "\"Golden Nosefish\"",
+                    "minecraft:rarity": "rare"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

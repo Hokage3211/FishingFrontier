@@ -1,0 +1,163 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:name_tag"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 0.25
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 0.25
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 1
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:lure": {
+                    "min": 4,
+                    "max": 5
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "minecraft:lore": [
+                    "\"A rare enchantment, be careful with it!\""
+                  ]
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_2"
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.30
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "fishingrework:fishermans_luck": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_4"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/fisherman_set",
+            "weight": 3,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.33
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/treasure"
+  }
+  

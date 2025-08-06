@@ -1,0 +1,55 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_leggings",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:tide"
+          }
+        }
+      },
+      "title": "Fisherman's Leggings",
+      "description": "You've acquired the fisherman's leggings!",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "fishingrework:progression/fisherman_boots",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:leather_leggings",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                    {
+                      "id": "luck_fisherman_legs",
+                      "type": "minecraft:luck",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "armor_leggings",
+                      "type": "minecraft:armor",
+                      "amount": 5,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ],
+                  "minecraft:custom_name": "\"Fisherman's Leggings\"",
+                  "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "minecraft:tide"
+                  }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

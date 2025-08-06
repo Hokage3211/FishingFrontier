@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ink_sac"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clay_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:seagrass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 4,
+                    "saturation": 2.4
+                  },
+                  "minecraft:item_name": "\"Leatherfish\""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

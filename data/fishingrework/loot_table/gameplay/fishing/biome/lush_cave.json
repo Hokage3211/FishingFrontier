@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:moss_block",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_berries"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:big_dripleaf"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:small_dripleaf"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spore_blossom"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clay_ball",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:azalea"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flowering_azalea"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

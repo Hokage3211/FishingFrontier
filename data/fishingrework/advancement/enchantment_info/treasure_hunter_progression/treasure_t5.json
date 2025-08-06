@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Treasure Hunter tier 4                       "
+        },
+        "description": {
+            "text": "The final tier! Exploring bastion remnants, ancient cities, and woodland mansions with your fishing rod may prove fruitful!"
+        },
+        "icon": {
+            "id": "minecraft:trapped_chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+    },
+    "parent": "fishingrework:enchantment_info/treasure_hunter_progression/treasure_t4"
+}

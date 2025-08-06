@@ -1,0 +1,75 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:cocoa_beans",
+                "weight": 3,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:consumable": {},
+                      "minecraft:food": {
+                        "nutrition": 6,
+                        "saturation": 1
+                      },
+                      "minecraft:item_name": "Miniature Cocoafish",
+                      "minecraft:rarity": "common"
+                    }
+                  }
+                ]
+              },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:melon_slice",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bamboo",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 4,
+                    "saturation": 3.6
+                  },
+                  "minecraft:item_name": "Bamboo tubefish",
+                  "minecraft:rarity": "common"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:vine",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 1
+                  },
+                  "minecraft:item_name": "Tangled jungle water-moss",
+                  "minecraft:rarity": "common"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

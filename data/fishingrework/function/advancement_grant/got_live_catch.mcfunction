@@ -1,0 +1,1 @@
+advancement grant @s only fishingrework:enchantment_info/live_catch_progression/live_catch_t1

@@ -1,0 +1,40 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fishingrework:fireproof_line"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fishingrework:fireproof_line"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

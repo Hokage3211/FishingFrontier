@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "fished": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:fishing_bobber"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "fishingrework:fished_water_item"
+    }
+  }
+  

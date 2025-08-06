@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 4,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_cod",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 7,
+                    "saturation": 8
+                  },
+                  "minecraft:item_name": "Cod ☆"
+                }
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 2
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/cod"
+  }
+  
