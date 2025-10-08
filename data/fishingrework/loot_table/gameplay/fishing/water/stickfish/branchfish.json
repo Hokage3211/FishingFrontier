@@ -47,7 +47,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#minecraft:is_jungle"
+                  "biomes": "#fishingrework:jungle_waters"
                 }
               }
             ]
@@ -84,7 +84,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#fishingrework:birch_forests"
+                  "biomes": "#fishingrework:birch_waters"
                 }
               }
             ]
@@ -96,7 +96,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#minecraft:is_jungle"
+                  "biomes": "#fishingrework:jungle_waters"
                 }
               }
             ]
@@ -108,7 +108,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#minecraft:is_badlands"
+                  "biomes": "#fishingrework:badlands_waters"
                 }
               }
             ]

@@ -83,7 +83,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#fishingrework:birch_forests"
+                  "biomes": "#fishingrework:birch_waters"
                 }
               }
             ]

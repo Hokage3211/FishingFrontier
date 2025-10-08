@@ -94,6 +94,29 @@
               {
                 "type": "minecraft:item",
                 "name": "minecraft:echo_shard",
+                "weight": 6,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon mooshroom ~ ~ ~ {Type:\"brown\"}"
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "minecraft:mushroom_fields"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
                 "weight": 8,
                 "functions": [
                   {
@@ -109,10 +132,7 @@
                   {
                     "condition": "minecraft:location_check",
                     "predicate": {
-                      "biomes": [
-                        "minecraft:swamp",
-                        "minecraft:mangrove_swamp"
-                      ]
+                      "biomes": "#has_structure/ruined_portal_swamp"
                     }
                   }
                 ]

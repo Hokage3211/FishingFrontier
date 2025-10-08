@@ -20,7 +20,7 @@ patchnotes from current version for each overlay:
      puts background of root advancement in old format
      add .level prefix back to enchantments
      splits equipment back into hand/armor items
-49 = removes consumable from food item loot
+49 = removes consumable from food item loot, puts empty stubs for stickfish family
 48 = replaces "minecraft:" attribute prefix with "generic." prefix for mobs and items
 
 

@@ -1,0 +1,11 @@
+{
+    "values": [
+      "#minecraft:is_mountain",
+      "#minecraft:is_hill",
+      "minecraft:grove",
+      "minecraft:jagged_peaks",
+      "minecraft:windswept_savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:stony_shore"
+    ]
+}

@@ -8,6 +8,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/underground",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -25,6 +26,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/deep_underground",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -42,6 +44,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/lush_cave",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -54,6 +57,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/dripstone_caves",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -66,11 +70,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/deep_dark",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "minecraft:deep_dark"
+                  "biomes": "#fishingrework:deep_dark_waters"
                 }
               }
             ]
@@ -78,12 +83,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/warm_ocean",
-            "weight": 3,
+            "weight": 2997,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "minecraft:warm_ocean"
+                  "biomes": "#minecraft:has_structure/ocean_ruin_warm"
                 }
               }
             ]
@@ -91,6 +96,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/oceans",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -103,6 +109,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/rivers",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -115,23 +122,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/cold_biomes",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:snowy_beach",
-                  "minecraft:snowy_plains",
-                  "minecraft:snowy_slopes",
-                  "minecraft:snowy_taiga",
-                  "minecraft:frozen_river",
-                  "minecraft:deep_frozen_ocean",
-                  "minecraft:frozen_ocean",
-                  "minecraft:frozen_peaks",
-                  "minecraft:ice_spikes",
-                  "minecraft:grove",
-                  "minecraft:jagged_peaks"
-                  ]
+                  "biomes": "#fishingrework:cold_waters"
                 }
               }
             ]
@@ -139,19 +135,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/simple_forest",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:plains",
-                  "minecraft:forest",
-                  "minecraft:birch_forest",
-                  "minecraft:old_growth_birch_forest",
-                  "minecraft:sunflower_plains",
-                  "minecraft:dark_forest",
-                  "minecraft:windswept_forest"
-                  ]
+                  "biomes": "#fishingrework:simple_forest_waters"
                 }
               }
             ]
@@ -159,6 +148,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/mushroom_island",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -171,14 +161,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/swamp",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:swamp",
-                  "minecraft:mangrove_swamp"
-                  ]
+                  "biomes": "#has_structure/ruined_portal_swamp"
                 }
               }
             ]
@@ -186,18 +174,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/badlands",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:savanna",
-                  "minecraft:savanna_plateau",
-                  "minecraft:windswept_savanna",
-                  "minecraft:badlands",
-                  "minecraft:eroded_badlands",
-                  "minecraft:wooded_badlands"
-                  ]
+                  "biomes": "#fishingrework:badlands_waters"
                 }
               }
             ]
@@ -205,11 +187,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/desert",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "minecraft:desert"
+                  "biomes": "#minecraft:has_structure/desert_pyramid"
                 }
               }
             ]
@@ -217,6 +200,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/flower_forest",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -229,22 +213,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/mountains",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                    "minecraft:grove",
-                    "minecraft:snowy_slopes",
-                    "minecraft:jagged_peaks",
-                    "minecraft:frozen_peaks",
-                    "minecraft:windswept_savanna",
-                    "minecraft:savanna_plateau",
-                    "minecraft:windswept_hills",
-                    "minecraft:windswept_gravelly_hills",
-                    "minecraft:windswept_forest",
-                    "minecraft:stony_shore"
-                ]
+                  "biomes": "#fishingrework:mountain_waters"
                 }
               }
             ]
@@ -252,17 +226,12 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/end",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:the_end",
-                  "minecraft:end_barrens",
-                  "minecraft:end_highlands",
-                  "minecraft:end_midlands",
-                  "minecraft:small_end_islands"
-                ]
+                  "biomes": "#fishingrework:end_waters"
                 }
               }
             ]
@@ -270,18 +239,20 @@
           {
             "type": "minecraft:loot_table",
             "value": "fishingrework:gameplay/fishing/biome/jungle",
+            "weight": 999,
             "conditions": [
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": [
-                  "minecraft:jungle",
-                  "minecraft:bamboo_jungle",
-                  "minecraft:sparse_jungle"
-                ]
+                  "biomes": "#fishingrework:jungle_waters"
                 }
               }
             ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "cod"
           }
         ]
       }

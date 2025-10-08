@@ -92,7 +92,7 @@
               },
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.30
+                "chance": 0.25
               }
             ]
           },
@@ -113,6 +113,10 @@
               {
                 "condition": "minecraft:reference",
                 "name": "fishingrework:luck_tier_4"
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.7
               }
             ]
           },
