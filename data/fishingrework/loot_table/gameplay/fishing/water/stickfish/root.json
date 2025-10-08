@@ -1,0 +1,82 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 0.6,
+                    "can_always_eat": true
+                  },
+                  "minecraft:item_name": "Stickfish",
+                  "minecraft:rarity": "common"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/water/stickfish/branchfish",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 1
+                  },
+                  "minecraft:item_name": "Branchfish",
+                  "minecraft:rarity": "common"
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_2"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/water/stickfish/stumpfish",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 8,
+                    "saturation": 10
+                  },
+                  "minecraft:item_name": "Stumpfish",
+                  "minecraft:consumable": {
+                    "consume_seconds": 4,
+                    "sound": "minecraft:block.wood.hit",
+                    "has_consume_particles": true
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [],
+    "random_sequence": "minecraft:gameplay/fishing"
+  }

@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_stem",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "minecraft:warped_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crimson_stem",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "minecraft:crimson_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:polished_basalt"
+          }
+        ]
+      }
+    ],
+    "functions": [],
+    "random_sequence": "minecraft:gameplay/fishing"
+  }

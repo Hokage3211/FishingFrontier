@@ -1,19 +1,21 @@
 
 
 datapack change tracking:
-48═╔══╔══1.21 releases
-╚══49 61 48          = Base intended version
-   ╚══║  49 (24w33a) = removal of attribute generic. prefix, instead uses minecraft: prefix
-      ║  50 (24w34a) = consumable required component for custom food items to work
-      ║  53 (24w37a) = item_name priority is lower than potion_contents (arrows/potions), need to use custom_name instead (backported to all versions)
-      ║  56 (24w40a) = no more riding bobbers (backported to all versions)
-      ╚══1.21.2/1.21.3/1.21.4 releases
-         62 (25w02a) = remove quotations around custom item names and lore, merged armordropchances = drop_chances
-         63 (25w03a) = merged HandItems/ArmorItems into "equipment"
-         64 (25w04a) = advancements: The field background no longer contains textures/ prefix and .png suffix., level field was simplified for enchantments
-         71 1.21.5 releases
+48═╔══╔══╔══1.21 releases
+╚══49 61 84 48          = Base intended version
+   ╚══║  ║  49 (24w33a) = removal of attribute generic. prefix, instead uses minecraft: prefix
+      ║  ║  50 (24w34a) = consumable required component for custom food items to work
+      ║  ║  53 (24w37a) = item_name priority is lower than potion_contents (arrows/potions), need to use custom_name instead (backported to all versions)
+      ║  ║  56 (24w40a) = no more riding bobbers (backported to all versions)
+      ╚══║  1.21.2/1.21.3/1.21.4 releases
+         ║  62 (25w02a) = remove quotations around custom item names and lore, merged armordropchances = drop_chances
+         ║  63 (25w03a) = merged HandItems/ArmorItems into "equipment"
+         ║  64 (25w04a) = advancements: The field background no longer contains textures/ prefix and .png suffix., level field was simplified for enchantments
+         ╚══71 1.21.5 releases
+            85 25w35a   = chain renamed to: iron_chain
 
 patchnotes from current version for each overlay:
+84 = puts "iron_chain" back to "chain"
 61 = adds back quoted \" to items names and lore and mob names
      puts background of root advancement in old format
      add .level prefix back to enchantments

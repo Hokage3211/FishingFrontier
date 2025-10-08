@@ -104,23 +104,9 @@
               ]
             },
             {
-              "type": "minecraft:item",
-              "name": "minecraft:stick",
-              "weight": 15,
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:consumable": {},
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 0.6
-                    },
-                    "minecraft:item_name": "Stickfish",
-                    "minecraft:rarity": "common"
-                  }
-                }
-              ]
+              "type": "minecraft:loot_table",
+              "value": "fishingrework:gameplay/fishing/water/stickfish/root",
+              "weight": 15
             },
             {
               "type": "minecraft:item",

@@ -120,7 +120,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:echo_shard",
-              "weight": 10,
+              "weight": 44,
               "functions": [
                 {
                   "function": "minecraft:set_components",
@@ -148,7 +148,7 @@
             {
               "type": "minecraft:loot_table",
               "value": "fishingrework:entity/stone_bug_underground",
-              "weight": 10,
+              "weight": 44,
               "conditions": [
                 {
                   "condition": "minecraft:location_check",

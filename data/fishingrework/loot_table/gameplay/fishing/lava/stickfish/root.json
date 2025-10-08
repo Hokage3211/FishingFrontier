@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "Charred Stick Fish",
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 6,
+                    "can_always_eat": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/lava/stickfish/branchfish",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {},
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 1
+                  },
+                  "minecraft:item_name": "Charred Branchfish",
+                  "minecraft:rarity": "common"
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_2"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fishingrework:gameplay/fishing/lava/stickfish/stumpfish",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 8,
+                    "saturation": 10
+                  },
+                  "minecraft:item_name": "Charred Stumpfish",
+                  "minecraft:consumable": {
+                    "consume_seconds": 4,
+                    "sound": "minecraft:block.stem.hit",
+                    "has_consume_particles": true
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "fishingrework:luck_tier_3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [],
+    "random_sequence": "minecraft:gameplay/fishing"
+  }

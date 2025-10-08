@@ -38,9 +38,22 @@
                   ]
                 },
                 {
-                  "type": "minecraft:loot_table",
-                  "value": "fishingrework:gameplay/fishing/lava/stickfish/root",
-                  "weight": 10
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "weight": 10,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:item_name": "Charred Stick Fish",
+                        "minecraft:consumable": {},
+                        "minecraft:food": {
+                          "nutrition": 3,
+                          "saturation": 6
+                        }
+                      }
+                    }
+                  ]
                 },
                 {
                   "type": "minecraft:item",
@@ -197,7 +210,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:iron_chain",
+                  "name": "minecraft:chain",
                   "weight": 10,
                   "functions": [
                     {

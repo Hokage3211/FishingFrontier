@@ -1,6 +1,6 @@
 {
   "description": "Fisherman's Luck",
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#fishingrework:luck_enchantable",
   "weight": 1,
   "max_level": 1,
   "min_cost": {

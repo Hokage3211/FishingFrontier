@@ -120,7 +120,7 @@
               {
                 "type": "minecraft:item",
                 "name": "minecraft:echo_shard",
-                "weight": 10,
+                "weight": 44,
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -148,7 +148,7 @@
               {
                 "type": "minecraft:loot_table",
                 "value": "fishingrework:entity/stone_bug_underground",
-                "weight": 10,
+                "weight": 44,
                 "conditions": [
                   {
                     "condition": "minecraft:location_check",
@@ -200,7 +200,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:custom_data": {
-                        "fishedcommand": "summon minecraft:drowned ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/sunken_pirate\",LeftHanded:1b,Health:30f,CustomName:'Sunken Pirate',HandItems:[{id:\"minecraft:iron_sword\",count:1,components:{\"minecraft:max_damage\":300,\"minecraft:custom_name\":'Iron Cutlass',\"minecraft:enchantments\":{\"minecraft:looting\":3,\"minecraft:sharpness\":2,\"minecraft:sweeping_edge\":1}}},{}],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30}]}"
+                        "fishedcommand": "summon drowned ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/sunken_pirate\",LeftHanded:1b,Health:30f,CustomName:\"Sunken Pirate\",equipment:{mainhand:{id:\"minecraft:iron_sword\",count:1,components:{\"minecraft:max_damage\":300,\"minecraft:custom_name\":\"Iron Cutlass\",\"minecraft:enchantments\":{\"looting\":3,\"sharpness\":2,\"sweeping_edge\":1}}}},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30}]}"
                       }
                     }
                   }
@@ -316,7 +316,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:custom_data": {
-                        "fishedcommand": "summon minecraft:drowned ~ ~ ~ {LeftHanded:0b,Health:30f,CustomName:'Gladiator Drowned',HandItems:[{id:\"minecraft:trident\",count:1,components:{\"minecraft:enchantments\":{\"minecraft:impaling\":2}}},{id:\"minecraft:shield\",count:1}],HandDropChances:[0.150F,0.085F],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
+                        "fishedcommand": "summon drowned ~ ~ ~ {LeftHanded:0b,Health:30f,CustomName:\"Gladiator Drowned\",equipment:{mainhand:{id:\"minecraft:trident\",count:1,components:{\"minecraft:enchantments\":{\"minecraft:impaling\":2}}},offhand:{id:\"minecraft:shield\",count:1}},drop_chances:{mainhand:0.150,offhand:0.085},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:30},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
                       }
                     }
                   }
@@ -414,7 +414,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:custom_data": {
-                        "fishedcommand": "summon vex ~ ~ ~ {LeftHanded:0b,HandItems:[{id:\"minecraft:potion\",count:1,components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\",custom_effects:[{id:\"minecraft:conduit_power\",amplifier:0,duration:600}]}}},{}],HandDropChances:[0.250F,0.085F],active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:water_breathing\",amplifier:0,duration:-1}]}"
+                        "fishedcommand": "summon vex ~ ~ ~ {LeftHanded:0b,equipment:{mainhand:{id:\"minecraft:potion\",count:1,components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\",custom_effects:[{id:\"minecraft:conduit_power\",amplifier:0,duration:600}]}}}},drop_chances:{mainhand:0.250},active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:water_breathing\",amplifier:0,duration:-1}]}"
                       }
                     }
                   }
@@ -536,7 +536,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:custom_data": {
-                        "fishedcommand": "summon phantom ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/guardian_fish\",LeftHanded:0b,Passengers:[{id:\"minecraft:bogged\",HandItems:[{id:\"minecraft:bow\",count:1},{}]}],CustomName:'Flying Ray',active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:fire_resistance\",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:\"minecraft:scale\",base:1.5}]}"
+                        "fishedcommand": "summon phantom ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/guardian_fish\",LeftHanded:0b,Passengers:[{id:\"minecraft:bogged\",equipment:{mainhand:{id:\"minecraft:bow\",count:1}}}],CustomName:\"Flying Ray\",active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b},{id:\"minecraft:fire_resistance\",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:\"minecraft:scale\",base:1.5}]}"
                       }
                     }
                   }
