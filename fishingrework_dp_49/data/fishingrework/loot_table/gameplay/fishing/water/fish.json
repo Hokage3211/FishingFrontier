@@ -510,6 +510,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:firework_rocket",
+              "weight": 5,
               "functions": [
                 {
                   "function": "minecraft:set_components",

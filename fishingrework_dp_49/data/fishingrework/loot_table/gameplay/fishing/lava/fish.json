@@ -118,7 +118,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:item_name": "\"Firey Scrap\""
+                        "minecraft:item_name": "\"Fiery Scrap\""
                       }
                     }
                   ]
@@ -612,7 +612,7 @@
                             {
                               "function": "minecraft:set_components",
                               "components": {
-                                "minecraft:item_name": "\"Firey Jelly\"",
+                                "minecraft:item_name": "\"Fiery Jelly\"",
                                 "minecraft:food": {
                                   "nutrition": 2,
                                   "saturation": 6
