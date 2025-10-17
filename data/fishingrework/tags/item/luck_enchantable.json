@@ -1,6 +1,5 @@
 {
     "values": [
-      "#minecraft:enchantable/armor",
-      "minecraft:player_head"
+      "#minecraft:enchantable/equippable"
     ]
 }
