@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "picked_up_angler_guide": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:knowledge_book",
+              "components": {
+                "minecraft:recipes": [
+                  "fishingrework:angler_guide"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "fishingrework:advancement_grant/request_book"
+    }
+  }

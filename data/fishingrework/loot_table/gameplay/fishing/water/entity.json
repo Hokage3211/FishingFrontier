@@ -205,6 +205,29 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon minecraft:snow_golem ~ ~ ~"
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#fishingrework:cold_waters"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -353,6 +376,29 @@
                       "minecraft:custom_data": {
                         "fishedcommand": "summon minecraft:cod ~ ~ ~ {DeathLootTable:\"fishingrework:entity\/big_cod\",LeftHanded:0b,Health:16f,active_effects:[{id:\"minecraft:absorption\",amplifier:2,duration:20,show_particles:0b}],attributes:[{id:\"minecraft:max_health\",base:16},{id:\"minecraft:scale\",base:4},{id:\"minecraft:movement_efficiency\",base:1},{id:\"minecraft:water_movement_efficiency\",base:1}]}"
                       }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon bogged ~ ~ ~ {equipment:{mainhand:{id:\"minecraft:bow\",count:1},offhand:{id:\"minecraft:tipped_arrow\",count:1,components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}}"
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#has_structure/ruined_portal_swamp"
                     }
                   }
                 ]

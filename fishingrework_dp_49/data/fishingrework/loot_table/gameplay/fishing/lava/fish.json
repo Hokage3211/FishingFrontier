@@ -329,38 +329,6 @@
                       }
                     }
                   ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:golden_apple",
-                  "weight": 5,
-                  "functions": [
-                    {
-                      "function": "minecraft:set_components",
-                      "components": {
-                        "minecraft:item_name": "\"Plump Goldfish\"",
-                        "minecraft:food": {
-                          "nutrition": 10,
-                          "saturation": 12,
-                          "effects": [
-                            {
-                              "effect": {
-                                "id": "minecraft:regeneration",
-                                "amplifier": 1,
-                                "duration": 100
-                              }
-                            },
-                            {
-                              "effect": {
-                                "id": "minecraft:absorption",
-                                "duration": 2400
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
                 }
               ],
               "conditions": [
@@ -534,23 +502,6 @@
                         },
                         {
                           "type": "minecraft:item",
-                          "name": "minecraft:soul_lantern",
-                          "weight": 10,
-                          "functions": [
-                            {
-                              "function": "minecraft:set_components",
-                              "components": {
-                                "minecraft:item_name": "\"Bluefire Lanterfish\"",
-                                "minecraft:food": {
-                                  "nutrition": 8,
-                                  "saturation": 10
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "minecraft:item",
                           "name": "minecraft:porkchop",
                           "weight": 10
                         },
@@ -716,6 +667,24 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "type": "minecraft:item",
+                          "name": "minecraft:bell",
+                          "weight": 3,
+                          "functions": [
+                            {
+                              "function": "minecraft:set_components",
+                              "components": {
+                                "minecraft:food": {
+                                  "nutrition": 6,
+                                  "saturation": 7,
+                                  "can_always_eat": true
+                                },
+                                "minecraft:item_name": "\"Jingling Bellfish\""
+                              }
+                            }
+                          ]
                         }
                       ],
                       "conditions": [
@@ -746,6 +715,55 @@
                                         "id": "minecraft:wither",
                                         "amplifier": 1,
                                         "duration": 20
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "minecraft:item",
+                          "name": "minecraft:soul_lantern",
+                          "weight": 10,
+                          "functions": [
+                            {
+                              "function": "minecraft:set_components",
+                              "components": {
+                                "minecraft:item_name": "\"Bluefire Lanternfish\"",
+                                "minecraft:food": {
+                                  "nutrition": 8,
+                                  "saturation": 10
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "minecraft:item",
+                          "name": "minecraft:golden_apple",
+                          "weight": 5,
+                          "functions": [
+                            {
+                              "function": "minecraft:set_components",
+                              "components": {
+                                "minecraft:item_name": "\"Plump Goldfish\"",
+                                "minecraft:food": {
+                                  "nutrition": 10,
+                                  "saturation": 12,
+                                  "effects": [
+                                    {
+                                      "effect": {
+                                        "id": "minecraft:regeneration",
+                                        "amplifier": 1,
+                                        "duration": 100
+                                      }
+                                    },
+                                    {
+                                      "effect": {
+                                        "id": "minecraft:absorption",
+                                        "duration": 2400
                                       }
                                     }
                                   ]

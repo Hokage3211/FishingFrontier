@@ -15,7 +15,15 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:bone_meal"
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_mushroom_block"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brown_mushroom_block"
           }
         ]
       }

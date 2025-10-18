@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "minecraft:book",
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish"
+    ],
+    "result": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:recipes": [
+          "fishingrework:angler_guide"
+        ]
+      }
+    }
+  }

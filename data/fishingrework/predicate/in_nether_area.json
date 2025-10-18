@@ -4,13 +4,7 @@
       {
         "condition": "minecraft:location_check",
         "predicate": {
-          "biomes": [
-            "minecraft:nether_wastes",
-            "minecraft:basalt_deltas",
-            "minecraft:soul_sand_valley",
-            "minecraft:warped_forest",
-            "minecraft:crimson_forest"
-          ]
+          "biomes": "#fishingrework:nether_waters"
         }
       },
       {

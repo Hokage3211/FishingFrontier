@@ -19,5 +19,8 @@
       "trigger": "minecraft:impossible"
     }
     },
+    "rewards": {
+        "function": "fishingrework:advancement_grant/request_book"
+    },
     "parent": "fishingrework:enchantment_info/live_catch_progression/live_catch_t1"
 }

@@ -19,6 +19,10 @@
           },
           {
             "type": "minecraft:item",
+            "name": "minecraft:blue_orchid"
+          },
+          {
+            "type": "minecraft:item",
             "name": "minecraft:slime_ball",
             "weight": 1,
             "functions": [
