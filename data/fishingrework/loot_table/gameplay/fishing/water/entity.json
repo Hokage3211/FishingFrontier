@@ -308,6 +308,29 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:echo_shard",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "fishedcommand": "summon minecraft:allay ~ ~ ~"
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structures": "minecraft:pillager_outpost"
+                    }
+                  }
+                ]
               }
             ],
             "conditions": [

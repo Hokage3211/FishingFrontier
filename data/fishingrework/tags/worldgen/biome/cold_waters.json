@@ -1,5 +1,7 @@
 {
     "values": [
-      "#minecraft:spawns_white_rabbits"
+      "#minecraft:spawns_white_rabbits",
+      "minecraft:cold_ocean",
+      "minecraft:deep_cold_ocean"
     ]
 }
