@@ -312,7 +312,7 @@
               {
                 "type": "minecraft:item",
                 "name": "minecraft:echo_shard",
-                "weight": 15,
+                "weight": 8,
                 "functions": [
                   {
                     "function": "minecraft:set_components",
