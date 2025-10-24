@@ -111,7 +111,7 @@
             },
             {
               "type": "item",
-              "weight": 10,
+              "weight": 30,
               "name": "minecraft:chest",
               "functions": [
                 {
@@ -139,7 +139,7 @@
             },
             {
               "type": "item",
-              "weight": 10,
+              "weight": 30,
               "name": "minecraft:suspicious_gravel",
               "functions": [
                 {
