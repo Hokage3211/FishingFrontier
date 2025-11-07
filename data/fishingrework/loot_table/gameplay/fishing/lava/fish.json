@@ -196,8 +196,8 @@
                   ]
                 },
                 {
-                  "type": "minecraft:item",
-                  "name": "minecraft:iron_chain",
+                  "type": "minecraft:loot_table",
+                  "value": "fishingrework:gameplay/fishing/misc/iron_chain",
                   "weight": 10,
                   "functions": [
                     {

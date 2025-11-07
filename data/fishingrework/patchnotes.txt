@@ -15,7 +15,7 @@ datapack change tracking:
             85 25w35a   = chain renamed to: iron_chain
 
 patchnotes from current version for each overlay:
-84 = puts "iron_chain" back to "chain"
+84 = changes "iron_chain" back to "chain" in single loot table
 61 = adds back quoted \" to items names and lore and mob names
      puts background of root advancement in old format
      add .level prefix back to enchantments

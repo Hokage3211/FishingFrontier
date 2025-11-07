@@ -2,6 +2,7 @@ scoreboard objectives remove fr_data
 scoreboard objectives remove fisherman_id
 scoreboard objectives remove frw_tl
 scoreboard objectives remove fished_count
+scoreboard objectives remove FishingFrontier_RequestEncylopediaPiscandi
 
 data remove storage fishingrework:data installedv1
 
