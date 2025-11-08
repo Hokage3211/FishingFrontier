@@ -1,17 +1,17 @@
 #multiply motion by 3.5 (originally)
 #                                                                                   0.00
 #execute store result entity @s Motion[0] double .011 run data get entity @s Motion[0] 100
-execute store result score #maxCheck fr_data run data get entity @s Motion[0] 120
+execute store result score #maxCheck fr_data run data get entity @s Motion[0] 130
 scoreboard players operation #maxCheck fr_data < #900 fr_data
 execute store result entity @s Motion[0] double .01 run scoreboard players get #maxCheck fr_data
 
 #execute store result entity @s Motion[1] double .022 run data get entity @s Motion[1] 100
-execute store result score #maxCheck fr_data run data get entity @s Motion[1] 200
+execute store result score #maxCheck fr_data run data get entity @s Motion[1] 210
 scoreboard players operation #maxCheck fr_data < #900 fr_data
 execute store result entity @s Motion[1] double .01 run scoreboard players get #maxCheck fr_data
 
 #execute store result entity @s Motion[2] double .011 run data get entity @s Motion[2] 100
-execute store result score #maxCheck fr_data run data get entity @s Motion[2] 120
+execute store result score #maxCheck fr_data run data get entity @s Motion[2] 130
 scoreboard players operation #maxCheck fr_data < #900 fr_data
 execute store result entity @s Motion[2] double .01 run scoreboard players get #maxCheck fr_data
 
