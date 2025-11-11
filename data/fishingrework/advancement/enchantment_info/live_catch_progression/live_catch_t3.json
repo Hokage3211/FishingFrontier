@@ -1,23 +1,12 @@
 {
-    "display": {
-        "title": {
-            "text": "Live Catch tier 2                       "
-        },
-        "description": {
-            "text": "New live catches are available everywhere! The end has a small surprise for live catchers!"
-        },
-        "icon": {
-            "id": "minecraft:spawner"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
     "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+      "1": {
+        "trigger": "minecraft:impossible"
+      }
     },
-    "parent": "fishingrework:enchantment_info/live_catch_progression/live_catch_t2"
-}
+    "requirements": [
+      [
+        "1"
+      ]
+    ]
+  }

@@ -41,4 +41,3 @@ scoreboard players set #32768 fr_data 32768
 #scoreboard players set #66 fr_data 80
 
 execute as @a if predicate fishingrework:tier_unlocked/1 run function fishingrework:advancement_grant/request_book
-execute as my1TINYwolf run function fishingrework:advancement_grant/give_full_book

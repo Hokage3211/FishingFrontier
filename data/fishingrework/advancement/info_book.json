@@ -1,0 +1,24 @@
+{
+    
+    "display": {
+        "title": {
+            "text": "Angling in the Fishing Frontier         "
+        },
+        "description": {
+            "text": "More details on the pack can be found in the info book! You can craft it with a book, cod, salmon, pufferfish, and tropical fish!"
+        },
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+    "parent": "fishingrework:progression/fishing_info"
+}

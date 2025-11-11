@@ -9,6 +9,11 @@
             "type": "minecraft:group",
             "children": [
               {
+                "type": "minecraft:loot_table",
+                "value": "fishingrework:entity/nether_bug",
+                "weight": 15
+              },
+              {
                 "type": "minecraft:item",
                 "name": "minecraft:echo_shard",
                 "weight": 10,
@@ -32,7 +37,7 @@
                     "function": "minecraft:set_components",
                     "components": {
                       "minecraft:custom_data": {
-                        "fishedcommand": "summon minecraft:magma_cube ~ ~ ~ {Size:1,active_effects:[{id:\"minecraft:absorption\",amplifier:1,duration:20,show_particles:0b}]}"
+                        "fishedcommand": "function fishingrework:special_summon\/magma_cube"
                       }
                     }
                   }
@@ -120,11 +125,6 @@
           {
             "type": "minecraft:group",
             "children": [
-              {
-                "type": "minecraft:loot_table",
-                "value": "fishingrework:entity/nether_bug",
-                "weight": 15
-              },
               {
                 "type": "minecraft:item",
                 "name": "minecraft:echo_shard",

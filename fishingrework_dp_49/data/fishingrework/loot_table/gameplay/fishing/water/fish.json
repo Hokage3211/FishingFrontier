@@ -508,26 +508,13 @@
               ]
             },
             {
-              "type": "minecraft:item",
-              "name": "minecraft:firework_rocket",
-              "weight": 5,
+              "type": "minecraft:loot_table",
+              "value": "fishingrework:gameplay/fishing/water/misc/rocketfish_base",
+              "weight": 7,
               "functions": [
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:fireworks": {
-                      "flight_duration": 3,
-                      "explosions": [
-                        {
-                          "shape": "star",
-                          "colors": [
-                            2061777,
-                            1434936
-                          ],
-                          "has_trail": true
-                        }
-                      ]
-                    },
                     "minecraft:item_name": "\"Rocket Fish\"",
                     "minecraft:food": {
                       "nutrition": 5,

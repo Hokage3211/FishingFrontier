@@ -1,0 +1,258 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        1920215,
+                        1920215
+                      ],
+                      "fade_colors": [
+                        8366531,
+                        8366531
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 1,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        2085299,
+                        1383653,
+                        5686000,
+                        5686000
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 1,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        0,
+                        0
+                      ],
+                      "fade_colors": [
+                        2282732
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        0,
+                        0
+                      ],
+                      "fade_colors": [
+                        2282732
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        2404341,
+                        1435074
+                      ],
+                      "has_trail": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        5686000,
+                        1383653,
+                        1383653,
+                        5686000
+                      ]
+                    },
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        1272869,
+                        1272869,
+                        3330642,
+                        3330642
+                      ],
+                      "has_trail": true
+                    },
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        3330642,
+                        14446345,
+                        3330642
+                      ],
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        14606606,
+                        15105802,
+                        15729925
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        1186274,
+                        1304487
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 1,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        2085154,
+                        2085154,
+                        817442
+                      ]
+                    },
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        0,
+                        13831437,
+                        13831437,
+                        13831437
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 1,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        14280461,
+                        14280461
+                      ],
+                      "has_trail": true
+                    },
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        2092571
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

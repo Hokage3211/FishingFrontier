@@ -55,7 +55,7 @@
       "recipes": [
         "fishingrework:angler_guide"
       ],
-      "function": "fishingrework:advancement_grant/give_info_book"
+      "function": "fishingrework:advancement_grant/request_book"
     }
   }
   

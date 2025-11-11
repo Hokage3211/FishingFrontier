@@ -1,23 +1,12 @@
 {
-    "display": {
-        "title": {
-            "text": "Live Catch tier 1                       "
-        },
-        "description": {
-            "text": "New live catches are available everywhere, and you can now catch blazes in a fortress! \nAt this and higher tiers, the ore bug catches are upgraded, try using a fortune pick on them!"
-        },
-        "icon": {
-            "id": "minecraft:spawner"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
     "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+      "1": {
+        "trigger": "minecraft:impossible"
+      }
     },
-    "parent": "fishingrework:enchantment_info/live_catch_progression/live_catch_t1"
-}
+    "requirements": [
+      [
+        "1"
+      ]
+    ]
+  }

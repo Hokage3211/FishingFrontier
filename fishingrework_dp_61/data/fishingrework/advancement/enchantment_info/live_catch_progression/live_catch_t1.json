@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Live Catch tier 0                       "
+        },
+        "description": {
+            "text": "Beyond the water or lava specific catches, Tier 0 has special catches in these biomes: \nMushroom fields, swamps, underground, lush caves, and all nether variant biomes"
+        },
+        "icon": {
+            "id": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+    },
+    "parent": "fishingrework:enchantment_info/live_catch"
+}

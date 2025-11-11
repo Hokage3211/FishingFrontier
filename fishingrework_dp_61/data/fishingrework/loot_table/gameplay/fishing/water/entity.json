@@ -331,6 +331,45 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "fishedcommand": "function fishingrework:special_summon\/slime"
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "position": {
+                          "y": {
+                            "min": -900,
+                            "max": 40
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "conditions": [

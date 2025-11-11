@@ -1,23 +1,12 @@
 {
-    "display": {
-        "title": {
-            "text": "Live Catch tier 3                       "
-        },
-        "description": {
-            "text": "Tier 3 has more live catches and you can now catch turtles and sea hags in the ocean! Dangerous combat encounters in all dimensions will occur!"
-        },
-        "icon": {
-            "id": "minecraft:spawner"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
     "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+      "1": {
+        "trigger": "minecraft:impossible"
+      }
     },
-    "parent": "fishingrework:enchantment_info/live_catch_progression/live_catch_t3"
-}
+    "requirements": [
+      [
+        "1"
+      ]
+    ]
+  }

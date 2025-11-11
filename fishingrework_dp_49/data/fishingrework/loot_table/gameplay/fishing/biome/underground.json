@@ -53,7 +53,55 @@
                     "nutrition": 5,
                     "saturation": 6
                   },
-                  "minecraft:item_name": "\"Crystal Fish\""
+                  "minecraft:item_name": "\"Prismatic Loach\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_cluster",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "\"Flourishing Cave Coral\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:small_amethyst_bud",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "\"Seedling Cave Coral\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:medium_amethyst_bud",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "\"Juvenile Cave Coral\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:large_amethyst_bud",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "\"Adult Cave Coral\""
                 }
               }
             ]
