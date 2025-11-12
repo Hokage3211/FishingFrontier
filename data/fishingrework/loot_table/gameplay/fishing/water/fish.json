@@ -517,7 +517,7 @@
             {
               "type": "minecraft:loot_table",
               "value": "fishingrework:gameplay/fishing/water/misc/rocketfish_base",
-              "weight": 7000,
+              "weight": 7,
               "functions": [
                 {
                   "function": "minecraft:set_components",
