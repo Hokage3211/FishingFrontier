@@ -1,3 +1,4 @@
+#overlayed in: 48
 #excuted as a bobber entity that needs to be linked
 
 #set fisherman ID to player matching origin position

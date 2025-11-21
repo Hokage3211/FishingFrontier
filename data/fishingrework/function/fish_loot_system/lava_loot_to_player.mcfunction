@@ -7,8 +7,9 @@ scoreboard players operation @a fisherman_id -= #temp2 fr_data
 #target @p[scores={fisherman_id=0}] for the linked player
 
 execute as @p[scores={fisherman_id=0}] run tag @s add active_fisher
-#prep fishingrerok:data luck_tier so loot table can check it
+#prep fishingrework:data luck_tier so loot table can check it
 execute as @p[scores={fisherman_id=0}] run function fishingrework:fish_loot_system/store_luck_tier
+execute as @s run function fishingrework:fish_loot_system/store_chum_state
 scoreboard players operation @a fisherman_id += #temp2 fr_data
 
 #if player is more than 31 blocks away, need to not give loot
@@ -39,7 +40,7 @@ execute as @p[tag=active_fisher,gamemode=!creative] at @s if predicate fishingre
 execute as @p[tag=active_fisher,gamemode=!creative] at @s unless predicate fishingrework:mainhand_fishing_rod if predicate fishingrework:offhand_fishing_rod if function fishingrework:util/chance_of_unbreaking run function fishingrework:util/damage_offhand
 
 #summon xp orb with random experience
-execute store result score #temp4 fr_data run random value 3..9
+execute store result score #temp4 fr_data run random value 4..10
 execute at @p[tag=active_fisher] summon experience_orb store result entity @s Value int 1 run scoreboard players get #temp4 fr_data
 
 #add to their tracked score and remove the tag

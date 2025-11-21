@@ -518,11 +518,6 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:porkchop",
-                  "weight": 10
-                },
-                {
-                  "type": "minecraft:item",
                   "name": "minecraft:cooked_porkchop",
                   "weight": 10
                 }
@@ -662,6 +657,29 @@
                       }
                     }
                   ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:splash_potion",
+                  "weight": 13,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "!minecraft:potion_contents": {},
+                        "minecraft:item_model": "minecraft:poisonous_potato",
+                        "minecraft:max_stack_size": 64,
+                        "minecraft:custom_name": "Repulsive Fish Food",
+                        "minecraft:item_name": "Repulsive Fish Food",
+                        "minecraft:lore": [
+                          {
+                            "text": "Throw in to catch fish less often",
+                            "color": "gray"
+                          }
+                        ]
+                      }
+                    }
+                  ]
                 }
               ],
               "conditions": [
@@ -695,7 +713,7 @@
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:bell",
-                  "weight": 3,
+                  "weight": 5,
                   "functions": [
                     {
                       "function": "minecraft:set_components",
@@ -725,7 +743,7 @@
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:wither_rose",
-                  "weight": 5,
+                  "weight": 8,
                   "functions": [
                     {
                       "function": "minecraft:set_components",
@@ -773,7 +791,7 @@
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:golden_apple",
-                  "weight": 5,
+                  "weight": 8,
                   "functions": [
                     {
                       "function": "minecraft:set_components",

@@ -3,6 +3,7 @@ tellraw @a "[Installed fishing rework]"
 scoreboard objectives add fr_data minecraft.used:minecraft.fishing_rod
 scoreboard objectives add fisherman_id dummy
 scoreboard objectives add frw_tl dummy
+scoreboard objectives add frw_tc dummy
 scoreboard objectives add fished_count dummy
 scoreboard objectives add FishingFrontier_RequestEncylopediaPiscandi trigger
 

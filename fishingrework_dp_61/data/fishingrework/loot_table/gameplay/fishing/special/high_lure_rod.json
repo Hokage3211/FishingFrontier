@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:fishing",
+  "random_sequence": "gameplay/fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:lure": {
+                  "type": "constant",
+                  "value": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  "\"A rare enchantment, be careful with it!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_4"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:lure": {
+                  "type": "constant",
+                  "value": 4
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  "\"A rare enchantment, be careful with it!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "fishingrework:luck_tier_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#overlayed in: 61
+data remove storage fishingrework:data temp
+execute store success storage fishingrework:data temp int 1 if block ~ ~ ~ #fishingrework:chummable_liquid if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{nbt:"{Item:{components:{\"minecraft:item_name\":\"Fish Food\"}}}"}} run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"effect"},Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:3600,Tags:["frw_chumming_effect","frw_fish_chum"]}
+execute store success storage fishingrework:data temp int 1 if block ~ ~ ~ #fishingrework:chummable_liquid if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{nbt:"{Item:{components:{\"minecraft:item_name\":\"Repulsive Fish Food\"}}}"}} run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"effect"},Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:3600,Tags:["frw_chumming_effect","frw_anti_chum"]}
+execute if data storage fishingrework:data temp run kill @s

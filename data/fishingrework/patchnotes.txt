@@ -22,6 +22,9 @@ patchnotes from current version for each overlay:
      splits equipment back into hand/armor items
 	 removes info book and encylopedia from advancements, functions, recipes
 	 puts empty stubs for stickfish family
+	 changes fish food/chum to be potions because swapped vanilla item models don't exist back then
+	 changes lure data location getter from slots to equipment.offhand
+	 renames "splash_potion" entity to "potion", changes particles to generic ones, changes predicate for potion item data
 49 = removes consumable from food item loot
 48 = replaces "minecraft:" attribute prefix with "generic." prefix for mobs and items
 

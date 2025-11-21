@@ -1,0 +1,54 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "frw_tc"
+        },
+        "range": {
+          "min": 2,
+          "max": 2
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "fishingrework:data",
+          "path": "chum_state"
+        },
+        "range": {
+          "min": 2,
+          "max": 2
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "frw_tc"
+        },
+        "range": {
+          "min": 3,
+          "max": 3
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "fishingrework:data",
+          "path": "chum_state"
+        },
+        "range": {
+          "min": 3,
+          "max": 3
+        }
+      }
+    ]
+  }
+  
