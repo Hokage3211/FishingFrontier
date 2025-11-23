@@ -74,7 +74,7 @@
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:dead_bush",
-                  "weight": 10,
+                  "weight": 7,
                   "functions": [
                     {
                       "function": "minecraft:set_components",
