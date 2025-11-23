@@ -4,7 +4,7 @@ scoreboard players set $temp fr_data 0
 #get level of unbreaking on the player's fishing rod item
 #data get entity hokage3211 SelectedItem.components.minecraft:enchantments.levels.minecraft:unbreaking
 #                           Inventory[{Slot:-106b}].components.minecraft:enchantments.levels.minecraft:unbreaking
-execute unless predicate fishingrework:mainhand_fishing_rod if predicate fishingrework:offhand_fishing_rod store result score $temp fr_data run data get entity @s Inventory[{Slot:-106b}].components.minecraft:enchantments.minecraft:unbreaking
+execute unless predicate fishingrework:mainhand_fishing_rod if predicate fishingrework:offhand_fishing_rod store result score $temp fr_data run data get entity @s equipment.offhand.components.minecraft:enchantments.minecraft:unbreaking
 execute if predicate fishingrework:mainhand_fishing_rod store result score $temp fr_data run data get entity @s SelectedItem.components.minecraft:enchantments.minecraft:unbreaking
 #$temp fr_data has level of unbreaking
 scoreboard players operation #temp2 fr_data = $temp fr_data
