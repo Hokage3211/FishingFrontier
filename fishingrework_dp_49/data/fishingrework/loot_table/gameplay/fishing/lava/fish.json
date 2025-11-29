@@ -647,7 +647,7 @@
                         "minecraft:item_name": "\"Repulsive Fish Food\"",
                         "minecraft:custom_name": "\"Repulsive Fish Food\"",
                         "minecraft:lore": [
-                          "\"Throw in to catch fish less often\""
+                          "\"Throw in (right click) to catch fish less often\""
                         ],
                         "minecraft:potion_contents": {
                           "custom_color": 6492941

@@ -132,7 +132,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "fishingrework:gameplay/fishing/lava/entity",
-          "weight": 8,
+          "weight": 10,
           "quality": 1,
           "conditions": [
             {

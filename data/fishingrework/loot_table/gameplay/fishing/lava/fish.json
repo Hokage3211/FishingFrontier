@@ -673,7 +673,7 @@
                         "minecraft:item_name": "Repulsive Fish Food",
                         "minecraft:lore": [
                           {
-                            "text": "Throw in to catch fish less often",
+                            "text": "Throw in (right click) to catch fish less often",
                             "color": "gray"
                           }
                         ]

@@ -134,7 +134,7 @@
                     "minecraft:item_name": "\"Fish Food\"",
                     "minecraft:custom_name": "\"Fish Food\"",
                     "minecraft:lore": [
-                      "\"Throw in to attract fish more often!\""
+                      "\"Throw in (right click) to attract fish more often!\""
                     ],
                     "minecraft:potion_contents": {
                       "custom_color": 889183

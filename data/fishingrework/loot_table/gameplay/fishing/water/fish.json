@@ -123,7 +123,7 @@
                     "minecraft:item_name": "Fish Food",
                     "minecraft:lore": [
                       {
-                        "text": "Throw in to attract fish more often!",
+                        "text": "Throw in (right click) to attract fish more often!",
                         "color": "gray"
                       }
                     ]
