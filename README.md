@@ -61,7 +61,7 @@ Informational books!
 An informational book is available which will be given to any fisher who gets their first boots, but you can also craft it with this recipe. 
 <img width="244" height="135" alt="BookRecipe" src="https://github.com/user-attachments/assets/6a220d43-184c-4745-be67-f9f4cd9d27a6" />
 
-Should you require more exact info, the encylopedia located at the end of the info book will give more info to the determined fisher!
+Should you require more exact info, the encyclopedia located at the end of the info book will give more info to the determined fisher!
   
 
 <details>
