@@ -27,7 +27,7 @@ Fish up new armor pieces, all part of the Fisherman's Set to climb your way thro
 <details>
 <summary>Fireproof Line</summary>
 
->This enchantment unlocks the ability to fish in lava, and combines with the other enchantments for an entire new dimension of fishing! The overworld has some lava loot, but the nether is the main place for lava fishing!
+>This enchantment unlocks the ability to fish in lava, and combines with the other enchantments for an entire new dimension of fishing! The overworld has some lava loot, but the nether is the main place for lava fishing! A whole new branch of fishing to explore!
 
 </details>
 
@@ -35,6 +35,13 @@ Fish up new armor pieces, all part of the Fisherman's Set to climb your way thro
 <summary>A Hidden Enchantment!</summary>
 
 >Rumors tell of an enchantment only the most dedicated fisherman are able to fish up, will you find it?
+
+</details>
+
+<details>
+<summary>Fish chumming!</summary>
+
+>On your fishing journey you may find fish food you can use to chum the waters and influence what you catch, use them wisely and hook to your heart's content!
 
 </details>
 
@@ -47,6 +54,15 @@ Fish up new armor pieces, all part of the Fisherman's Set to climb your way thro
 
 Advancement-based tutorial:
 This datapack uses advancements to guide players through their fishing journey, check it for the most up-to-date info and tips!
+
+
+Informational books!
+
+An informational book is available which will be given to any fisher who gets their first boots, but you can also craft it with this recipe. 
+<img width="244" height="135" alt="BookRecipe" src="https://github.com/user-attachments/assets/6a220d43-184c-4745-be67-f9f4cd9d27a6" />
+
+Should you require more exact info, the encylopedia located at the end of the info book will give more info to the determned fisher!
+  
 
 <details>
 <summary>For PAPERMC (lava fishing burning immediately)</summary>
