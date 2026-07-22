@@ -2,8 +2,9 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "minecraft:type_specific/cube_mob": {
-      "size": 0
+    "type_specific": {
+      "type": "minecraft:slime",
+      "size": 1
     }
   }
 }

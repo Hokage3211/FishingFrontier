@@ -8,6 +8,9 @@
 	},
 	"overlays": {
 		"entries": [
+			{"formats" : [48,106],
+			"min_format":48,"max_format":106,
+			"directory" : "fishingrework_dp_106"},
 			{"formats" : [48,84],
 			"min_format":48,"max_format":84,
 			"directory" : "fishingrework_dp_84"},

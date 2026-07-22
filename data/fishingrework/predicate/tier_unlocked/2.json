@@ -1,12 +1,11 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type_specific": {
-        "type": "minecraft:player",
-        "advancements": {
-          "fishingrework:progression/fisherman_leggings": true
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+      "advancements": {
+        "fishingrework:progression/fisherman_leggings": true
       }
     }
   }
+}
